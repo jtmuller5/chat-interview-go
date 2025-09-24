@@ -23,3 +23,7 @@ For example:
 1. `go mod tidy` (to install dependencies)
 2. Add `GEMINI_API_KEY={your_api_key}` to `.env`
 3. `go run main.go` or `go build -o chatbot main.go && ./chatbot`
+
+## Starting Assumptions
+- The user's response to each prompt will be correct
+- The user will not give more information than what is requested
